@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/router'
 import axios from 'axios'
 import * as Yup from 'yup'
-import { IconDatabase } from '@tabler/icons-react'
+import { BsDatabase } from "react-icons/bs";
 import { ShieldCheckIcon } from '@heroicons/react/solid'
 import { ExclamationCircleIcon } from '@heroicons/react/outline'
 import {
@@ -101,7 +101,7 @@ const Home: NextPage = () => {
               : "Don't have an account? Register"}
           </Anchor>
           <Button
-            leftIcon={<IconDatabase size={14} />}
+            leftIcon={<BsDatabase size={14} />}
             color="cyan"
             type="submit"
           >
