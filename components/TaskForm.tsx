@@ -1,6 +1,6 @@
 import { FormEvent } from 'react'
 import { TextInput, Button, Center } from '@mantine/core'
-import { BsDatabase } from "react-icons/bs";
+import { BsFillDatabaseFill } from "react-icons/bs";
 import useStore from '../store'
 import { useMutateTask } from '../hooks/useMutateTask'
 
@@ -43,7 +43,7 @@ export const TaskForm = () => {
         <Center mt="lg">
           <Button
             disabled={editedTask.title === ''}
-            leftIcon={<BsDatabase size={14} />}
+            leftIcon={<BsFillDatabaseFill size={14} />}
             color="cyan"
             type="submit"
           >
