@@ -1,6 +1,6 @@
 import { FormEvent } from 'react'
 import { TextInput, Button, Center } from '@mantine/core'
-import { BsFillAirplaneFill } from "react-icons/bs";
+import { BsFillAirplaneFill } from "react-icons/bs"
 import useStore from '../store'
 import { useMutateTask } from '../hooks/useMutateTask'
 
